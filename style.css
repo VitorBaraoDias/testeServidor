@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+font-size: 100%;
+background: linear-gradient(110.34deg, #0470DC -2.02%, #13F1FC 129.72%);
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.titulo-logan{
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabecalho-menu-item{
+    
+    Size:18px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.527);
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;    
+}
+.conteudo-principal-escrito-titulo{
+    
+    color:#FFFFFF;
+    font-family: 'Cabin', sans-serif;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.conteudo-principal-escrito-subtitulo{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+   font-family: Cabin;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #B7E6FF;
+    max-width: 500px;
+}
+
+.conteudo-principal-escrito-botao{
+    background-color: #FFFFFF;
+    width: 475px;
+    height: 62px;
+    left: 135px;
+    top: 527px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Cabin', sans-serif;
+    border-radius: 31px;
+
+    font-size: 19px; 
+    font-weight: 28px;
+    font-size: 19px;
+    line-height: 23px;
+    
+    color: #BDD3DF;
+
+}
+
+.rodape{
+    max-height: 100px;
+    margin-bottom: 48px;
+    border-top: 0.4px solid rgba(255, 255, 255, 0.527);
+}
+
+.rodape-titulo{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 19px; 
+    font-weight: 28px;
+    font-size: 19px;
+    line-height: 23px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.rodape-conteudo-escrito{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+
+    Size:18px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.rodape-conteudo-menu{
+    Size:18px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+.rodape-conteudo-nav-menu{
+    display: flex;
+    gap: 160px;
+}
